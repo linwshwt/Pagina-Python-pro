@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    background-color: #f5fafc;
+    color: #30383d;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 45px 20px 30px;
+}
+
+.etiqueta {
+    display: inline-block;
+    background-color: #d9f1fa;
+    color: #267ca3;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    color: #174f70;
+    font-family: Georgia, serif;
+    font-size: 45px;
+    margin: 15px 0 10px;
+}
+
+.subtitulo {
+    color: #587785;
+    font-size: 17px;
+    max-width: 600px;
+    margin: auto;
+}
+
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    color: #267ca3;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #174f70;
+}
+
+main {
+    width: 78%;
+    max-width: 850px;
+    margin: auto;
+}
+
+section {
+    padding: 25px 0;
+}
+
+h2 {
+    color: #267ca3;
+    font-family: Georgia, serif;
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+    background-color: #8fd3e8;
+    margin-top: 7px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+ul,
+ol {
+    line-height: 1.8;
+    padding-left: 28px;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+.destacado {
+    background-color: #e8f6fb;
+    padding: 22px 28px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+strong {
+    color: #267ca3;
+}
+
+figure {
+    text-align: center;
+    margin: 35px auto 55px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 22px;
+    box-shadow: 0 8px 22px #c5d8e2;
+}
+
+figcaption {
+    color: #66818f;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.video {
+    text-align: center;
+}
+
+.video h2::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    margin-top: 20px;
+    max-width: 100%;
+    border: none;
+    border-radius: 18px;
+}
+
+.final {
+    text-align: center;
+    background-color: #e8f6fb;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 18px;
+}
+
+.final h2::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1:hover {
+    animation: cambio-color 2s infinite;
+}
+
+@keyframes cambio-color {
+    0% {
+        color: #174f70;
+    }
+
+    50% {
+        color: #4fa9c9;
+    }
+
+    100% {
+        color: #174f70;
+    }
+}
