@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    background-color: #fff8f3;
+    color: #302939;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    color: #763b78;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    margin: 0;
+}
+
+
+nav a {
+    color: #563a63;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    color: #e95691;
+}
+
+
+.inicio {
+    min-height: 500px;
+    padding: 50px 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 45px;
+
+    background-color: #f9d7df;
+}
+
+
+.inicio-texto {
+    width: 45%;
+}
+
+
+.etiqueta {
+    display: inline-block;
+
+    background-color: #ff6596;
+    color: white;
+
+    padding: 7px 14px;
+    border-radius: 20px;
+
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+h1 {
+    color: #4b285d;
+    font-family: Georgia, serif;
+
+    font-size: 60px;
+
+    margin: 15px 0;
+}
+
+
+h1:hover {
+    animation: color-change 2s infinite;
+}
+
+
+@keyframes color-change {
+
+    0% {
+        color: #4b285d;
+    }
+
+    50% {
+        color: #e95691;
+    }
+
+    100% {
+        color: #4b285d;
+    }
+
+}
+
+
+.subtitulo {
+    color: #66566d;
+    font-size: 18px;
+    line-height: 1.6;
+
+    max-width: 500px;
+}
+
+
+.boton {
+    display: inline-block;
+
+    margin-top: 15px;
+    padding: 12px 22px;
+
+    background-color: #713c75;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 20px;
+}
+
+
+.boton:hover {
+    background-color: #e95691;
+}
+
+
+.portada {
+    width: 50%;
+
+    border-radius: 25px;
+
+    box-shadow: 0 12px 30px #d4a9b8;
+}
+
+
+section {
+    padding: 55px 10%;
+}
+
+
+section h2 {
+    color: #713c75;
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
+
+
+section h2::after {
+    content: "";
+
+    display: block;
+
+    width: 55px;
+    height: 3px;
+
+    background-color: #ee7ba5;
+
+    margin-top: 7px;
+}
+
+
+section p {
+    line-height: 1.7;
+}
+
+
+.datos {
+    display: flex;
+
+    gap: 25px;
+
+    margin-top: 30px;
+}
+
+
+.datos article {
+    width: 33%;
+
+    background-color: #fff0f3;
+
+    padding: 20px;
+
+    border-radius: 16px;
+}
+
+
+.datos h3 {
+    color: #814a7f;
+}
+
+
+.trailer {
+    text-align: center;
+    background-color: #f7e7ed;
+}
+
+
+.trailer h2::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.trailer iframe {
+    margin-top: 20px;
+
+    max-width: 100%;
+
+    border: none;
+    border-radius: 20px;
+
+    box-shadow: 0 10px 25px #d7bcc7;
+}
+
+
+#vicecity {
+    text-align: center;
+}
+
+
+#vicecity h2::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.final {
+    text-align: center;
+
+    background-color: #4b285d;
+    color: white;
+
+    padding: 35px;
+}
+
+
+.final h2 {
+    color: white;
+}
+
+
+.final h2::after {
+    display: none;
+}
+
+
+.final p {
+    margin: 5px;
+}
